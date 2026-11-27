@@ -1,0 +1,30 @@
+{
+  "name": "react18-antd6-umi4-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React 18 + Ant Design 6 + Umi 4 admin starter",
+  "scripts": {
+    "dev": "umi dev",
+    "start": "umi dev",
+    "build": "umi build",
+    "setup": "umi setup",
+    "postinstall": "umi setup",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "antd": "^6.7.0",
+    "dayjs": "^1.11.23",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3",
+    "umi": "^4.7.32"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
